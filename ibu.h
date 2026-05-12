@@ -32,3 +32,15 @@ void Ibu::tambahAnak(anak *pAnak)
     daftar_anak.push_back(pAnak);
 }
 void Ibu::cetakAnak()
+{
+    std::cout << "Daftar Anak dari Ibu \"" << this->nama << "\":\n";
+
+    for (auto &a : daftar_anak)
+    {
+        std::cout << a->nama << "\n";
+    }
+
+    std::cout << std::endl;
+}
+
+#endif
