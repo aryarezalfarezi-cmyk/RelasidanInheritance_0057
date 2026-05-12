@@ -11,3 +11,8 @@ public:
     // deklarasi member variabel
     std::string nama;
     std::vector<anak *> daftar_anak;
+    // constructor
+    Ibu(std::string pNama) : nama(pNama)
+    {
+        std::cout << "Ibu \"" << nama << "\" ada\n";
+    }
