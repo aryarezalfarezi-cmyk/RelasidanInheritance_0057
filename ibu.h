@@ -6,3 +6,8 @@
 #include <string>
 #include "anak.h"
 class Ibu
+{
+public:
+    // deklarasi member variabel
+    std::string nama;
+    std::vector<anak *> daftar_anak;
