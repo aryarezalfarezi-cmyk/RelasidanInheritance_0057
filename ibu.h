@@ -16,3 +16,13 @@ public:
     {
         std::cout << "Ibu \"" << nama << "\" ada\n";
     }
+    // destructor
+    ~Ibu()
+    {
+        std::cout << "Ibu \"" << nama << "\" tidak ada\n";
+    }
+
+    // deklarasi method
+    void tambahAnak(anak *pAnak);
+    void cetakAnak();
+};
